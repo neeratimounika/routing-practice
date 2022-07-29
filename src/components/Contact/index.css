@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.img-contact {
+  width: 150px;
+}
+.contact-hdng {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #6d396b;
+}
+@media (min-width: 579px) {
+  .contact-hdng {
+    font-size: 48px;
+  }
+}
